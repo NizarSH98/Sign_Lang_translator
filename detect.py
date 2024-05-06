@@ -4,7 +4,7 @@ from tensorflow.keras.models import load_model
 import mediapipe as mp
 
 # Load the trained model
-model = load_model("sign_language_model.keras")
+model = load_model("signLangTranslate\sign_language_model1.keras")
 
 # Load the MediaPipe hand detection module
 mp_hands = mp.solutions.hands
